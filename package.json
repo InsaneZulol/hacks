@@ -1,8 +1,7 @@
 {
-  "name": "open-react-template",
+  "name": "quantumql",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
@@ -15,11 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cruip/open-react-template.git"
+    "url": "https://github.com/InsaneZulol/hacks.git"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,8 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
   }
 }
